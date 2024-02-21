@@ -260,11 +260,11 @@ In this lab, you will be guided through the following tasks:
 
 14. Go to the Configuration tab, and select the latest version of MySQL: 8.3.0
 
-    ![HeatWave select version](./images/mys.png "mysql version ")
+    ![HeatWave select version](./images/mysql-configuration.png "mysql version ")
 
 15. Go to the Management tab, and make sure that the Database Management option is enabled. 
 
-    ![HeatWave select version](./images/mys.png "mysql version ")
+    ![HeatWave select version](./images/mysql-management.png "mysql version ")
 
     You can read more info on on monitoring MySQL HeaWave with OCI Database Management, <a href="https://blogs.oracle.com/observability/post/database-management-for-mysql-heatwave">here</a>
 

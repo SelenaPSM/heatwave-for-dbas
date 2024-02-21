@@ -111,7 +111,7 @@ phpinfo();
 
 ## Task 3: Verify connection to the Database
 
-1. Security update"   set SELinux to allow Apache to connect to MySQL
+1. Perform a security update: set SELinux to allow Apache to connect to MySQL
 
     ```bash
     <copy> sudo setsebool -P httpd_can_network_connect 1 </copy>
@@ -126,11 +126,10 @@ phpinfo();
     ```bash
     <copy>sudo nano config.php</copy>
     ```
-3. Add the following code to the editor and save the file (ctr + o) (ctl + x)
+3. Add the following code to the editor and save the file (ctr + o) (ctl + x). Make sure to add your database IP, user and password
 
     ```bash
     <copy>
-    <?php
     <?php
     // Database credentials
     define('DB_SERVER', '10.0.1...');// HeatWave DB server IP address
